@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <title>BBC</title>
+</head>
+<body>
+  <nav class="nav-container">
+    <section class="nav__section-left">
+      <div class="logo">BBC</div>
+      <div class="signin">
+        <i class="fa-solid fa-user"></i>
+        Signin</div>
+    </section>
+      <ul class="nav__section-middle" style="list-style-type:none;">
+        <li>Home</li>
+        <li>News</li>
+        <li>Sport</li>
+        <li>Reel</li>
+        <li>Worklife</li>
+        <li>Travel</li>
+        <li>Future</li>
+        <li>Culture</li>
+        <div class="dropdown">
+          <button class="dropbtn">More <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="#">Romance</a>
+            <a href="#">Games</a>
+            <a href="#">Food</a>
+          </div>
+        </div>
+      </ul>
+    <section class="nav__section-right">
+      <form action="https://www.google.com" class="searchbar" >
+        <input type="text" class="form__input" placeholder="Search"> 
+        </input>
+        <button type="submit" class="form__submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    </section>
+  </nav>
+
+  <header class="header__highlights">
+    <span class="welcome">
+      Welcome to BBC.com
+    </span>
+    <span class="date">
+      Wednesday, 23 October
+    </span>
+  </header>
+  <div class="highlights">
+    <section class="highlight__section left">
+      <img class="highlight-main-image" src="images/main-highlight.png"/>
+    </section>
+    <secttion class="highlight__section right">
+      <article class="sub-article">
+        <img class="highlight-main-image" src="images/article-1.png"/>
+      </article>
+      <article class="sub-article">
+        <img class="highlight-main-image" src="images/article-2.png"/>
+      </article>
+      <article class="sub-article">
+        <img class="highlight-main-image" src="images/article-3.png"/>
+      </article>
+      <article class="sub-article">
+        <img class="highlight-main-image" src="images/article-4.png"/>
+      </article>
+    </secttion>
+  </div>  
+  
+  <header class="header__highlights">
+    <span class="welcome">
+      News
+    </span>
+  </header>
+
+  <section class="minor-news">
+    <article class="minor-child 1">
+      <img class="highlight-minor-image" src="images/minor-1.png"/>
+      <h2>Biden and Harris says Trump has left US 'in tatters'</h2>
+      <p class="minor-desc">Joe Biden and running mate Kamala Harris call President Donald Trump a "whining" incompetent leader.</p>
+      <p class="topic">US ELECTION 2020</p>
+    </article>
+    <article class="minor-child 2">
+      <img class="highlight-minor-image" src="images/minor-2.png"/>
+      <h2>Women form 'solidarity chains' in Belarus protests</h2>
+      <p class="minor-desc">Women take to the streets of Minsk dressed in white as they demand an end to police brutality</p>
+      <p class="topic">EUROPE</p>
+      
+    </article>
+    <article class="minor-child 3">
+      <img class="highlight-minor-image" src="images/minor-3.png"/>
+      <h2>Trump says low-ressure shower heads won't wash</h2>
+      <p class="minor-desc">The US calls fr rules to be eased after Donald Trump complained of issues washing his hair</p>
+      <p class="topic">US & CANADA</p>
+
+    </article>
+  </section>
+</body>
+</html>
