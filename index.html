@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.1.1/css/all.css">
   <title>BBC</title>
+  <script>
+    function search() {
+      const x = document.getElementByName("form__input").value;
+      document.getElementsByName("searchbar").action = x;
+    }
+  </script>
 </head>
 <body>
   <nav class="nav-container">
@@ -35,10 +41,10 @@
         </div>
       </ul>
     <section class="nav__section-right">
-      <form action="https://www.google.com" class="searchbar" >
-        <input type="text" class="form__input" placeholder="Search"> 
+      <form action="https://www.google.com/" name="searchbar" class="searchbar" >
+        <input type="text" name="form__input" class="form__input" value="" placeholder="Search"> 
         </input>
-        <button type="submit" class="form__submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button type="submit" class="form__submit" onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></button>
       </form>
     </section>
   </nav>
