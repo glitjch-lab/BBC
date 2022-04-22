@@ -224,6 +224,13 @@ body {
   align-items: center;
 }
 
+.news {
+
+  border-left-color: red;
+  border-left-width: 6px;
+  border-left-style: solid;
+  text-indent: 0.5em;
+}
 .minor-news {
   display: flex;
   justify-content: space-between;
@@ -251,5 +258,12 @@ h2 {
 }
 .topic {
   color: grey;
+  margin-top: 0;
+
+  border-left-color: red;
+  border-left-width: 3px;
+  border-left-style: solid;
+  text-indent: 0.5em;
+  
 }
 
